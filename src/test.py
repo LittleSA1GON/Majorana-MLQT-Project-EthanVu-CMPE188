@@ -21,9 +21,10 @@ def main() -> None:
     here = Path(__file__).resolve().parent
 
     candidate_paths = [
-        here / "../../azure-quantum-parity-readout/data",
-        here / "../../azure-quantum-parity-readout/data/converted_data",
-        here / "../../azure-quantum-parity-readout/data/simulated",
+        here / "../data",
+        here / "../data/raw_data",
+        here / "../data/converted_data",
+        here / "../data/simulated",
     ]
 
     print("Testing access to Azure Quantum Parity Readout dataset paths...")
