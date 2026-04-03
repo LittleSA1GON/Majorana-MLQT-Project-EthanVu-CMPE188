@@ -1,0 +1,472 @@
+﻿Folder PATH listing for volume Storage Space (Tiered)
+Volume serial number is A20B-5BAF
+E:\SOFTWARE ENGINEERING STUFF\~RANDOM\MAJORANA-MLQT-PROJECT-ETHANVU-CMPE188\PARSED_DATA
++---converted_data
+ª   +---cut_loop_A
+ª   ª   +---cut_loop_A_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---cut_loop_B
+ª   ª   +---cut_loop_B_Cq
+ª   ª           bias.csv
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           
+ª   +---injector
+ª   ª   +---injector_Cq
+ª   ª           bias.csv
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           
+ª   +---mpr_A1
+ª   ª   +---mpr_A1_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---mpr_A2
+ª   ª   +---mpr_A2_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---mpr_B1
+ª   ª   +---mpr_B1_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---qdmzm_A1
+ª   ª   +---qd1mzm_Cq
+ª   ª   ª       B_perp.csv
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       Ng_qd_1_plunger_gate.csv
+ª   ª   ª       V_lin_qd.csv
+ª   ª   ª       V_qd_1_plunger_gate.csv
+ª   ª   ª       V_qd_1_plunger_gate_abs.csv
+ª   ª   ª       V_wire.csv
+ª   ª   ª       
+ª   ª   +---qd3mzm_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           Ng_qd_3_plunger_gate.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate_abs.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---qpp
+ª   ª   +---qpp_Cq
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           
+ª   +---thermometry
+ª   ª   +---thermometry_100mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_150mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_200mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_250mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_302mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_30mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_41mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_50mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_65mK_Cq
+ª   ª   ª       Cq.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       iCq.csv
+ª   ª   ª       T_MC.csv
+ª   ª   ª       V_DG2.csv
+ª   ª   ª       V_QC1.csv
+ª   ª   ª       V_QD1.csv
+ª   ª   ª       
+ª   ª   +---thermometry_80mK_Cq
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           T_MC.csv
+ª   ª           V_DG2.csv
+ª   ª           V_QC1.csv
+ª   ª           V_QD1.csv
+ª   ª           
+ª   +---trivial_A
+ª   ª   +---trivial_A_Cq
+ª   ª           B_perp.csv
+ª   ª           Cq.csv
+ª   ª           datasets.csv
+ª   ª           iCq.csv
+ª   ª           time.csv
+ª   ª           V_lin_qd.csv
+ª   ª           V_qd_1_plunger_gate.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           V_wire.csv
+ª   ª           
+ª   +---trivial_B
+ª       +---trivial_B_Cq
+ª               B_perp.csv
+ª               Cq.csv
+ª               datasets.csv
+ª               iCq.csv
+ª               time.csv
+ª               V_lin_qd.csv
+ª               V_qd_1_plunger_gate.csv
+ª               V_qd_3_plunger_gate.csv
+ª               V_wire.csv
+ª               
++---raw_data
+ª   +---charge_noise
+ª   ª   +---charge_noise_Vrf
+ª   ª           datasets.csv
+ª   ª           time.csv
+ª   ª           Vrf.csv
+ª   ª           V_qd_1.csv
+ª   ª           
+ª   +---dot_tuneup_A1
+ª   ª   +---QD1_bias
+ª   ª   ª       bias.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       i.csv
+ª   ª   ª       V_qd_1_plunger_gate.csv
+ª   ª   ª       
+ª   ª   +---QD1_QD3
+ª   ª   ª       datasets.csv
+ª   ª   ª       Vrf.csv
+ª   ª   ª       V_qd_1_plunger_gate.csv
+ª   ª   ª       V_qd_3_plunger_gate.csv
+ª   ª   ª       
+ª   ª   +---QD2_bias
+ª   ª   ª       bias.csv
+ª   ª   ª       datasets.csv
+ª   ª   ª       i.csv
+ª   ª   ª       V_lin_qd.csv
+ª   ª   ª       
+ª   ª   +---QD3_bias
+ª   ª           bias.csv
+ª   ª           datasets.csv
+ª   ª           i.csv
+ª   ª           V_qd_3_plunger_gate.csv
+ª   ª           
+ª   +---tgp2_tuneup
+ª       +---deviceA1_tgp2_ds_left
+ª       ª       B.csv
+ª       ª       cutter_pair_index.csv
+ª       ª       datasets.csv
+ª       ª       g_ll.csv
+ª       ª       g_rl.csv
+ª       ª       left_bias.csv
+ª       ª       V.csv
+ª       ª       
+ª       +---deviceA1_tgp2_ds_right
+ª       ª       B.csv
+ª       ª       cutter_pair_index.csv
+ª       ª       datasets.csv
+ª       ª       g_lr.csv
+ª       ª       g_rr.csv
+ª       ª       right_bias.csv
+ª       ª       V.csv
+ª       ª       
+ª       +---deviceA2_tgp2_ds_left
+ª       ª       B.csv
+ª       ª       cutter_pair_index.csv
+ª       ª       datasets.csv
+ª       ª       g_ll.csv
+ª       ª       g_rl.csv
+ª       ª       left_bias.csv
+ª       ª       V.csv
+ª       ª       
+ª       +---deviceA2_tgp2_ds_right
+ª       ª       B.csv
+ª       ª       cutter_pair_index.csv
+ª       ª       datasets.csv
+ª       ª       g_lr.csv
+ª       ª       g_rr.csv
+ª       ª       right_bias.csv
+ª       ª       V.csv
+ª       ª       
+ª       +---deviceB1_tgp2_ds_left
+ª       ª       B.csv
+ª       ª       cutter_pair_index.csv
+ª       ª       datasets.csv
+ª       ª       g_ll.csv
+ª       ª       g_rl.csv
+ª       ª       left_bias.csv
+ª       ª       V.csv
+ª       ª       
+ª       +---deviceB1_tgp2_ds_right
+ª               B.csv
+ª               cutter_pair_index.csv
+ª               datasets.csv
+ª               g_lr.csv
+ª               g_rr.csv
+ª               right_bias.csv
+ª               V.csv
+ª               
++---simulated
+    +---Fig4_data
+    ª       A.csv
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       EC1.csv
+    ª       EC2.csv
+    ª       EC3.csv
+    ª       E_M.csv
+    ª       fd.csv
+    ª       lever_arm.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       n_freq.csv
+    ª       n_freq_lindblad.csv
+    ª       parity.csv
+    ª       phi.csv
+    ª       t12.csv
+    ª       t23.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       ?ng.csv
+    ª       
+    +---FigS11_QDL
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       E_M.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       
+    +---FigS11_QDR
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       E_M.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       
+    +---FigS11_S12_data
+    ª       A.csv
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       EC1.csv
+    ª       EC2.csv
+    ª       EC3.csv
+    ª       E_M.csv
+    ª       fd.csv
+    ª       lever_arm.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       n_freq.csv
+    ª       n_freq_lindblad.csv
+    ª       parity.csv
+    ª       phi.csv
+    ª       t12.csv
+    ª       t23.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       ?ng.csv
+    ª       
+    +---FigS11_S12_noisy_data
+    ª       CQ.csv
+    ª       CQ_even.csv
+    ª       CQ_odd.csv
+    ª       datasets.csv
+    ª       E_M.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       phi.csv
+    ª       time.csv
+    ª       tm1.csv
+    ª       
+    +---FigS3_data
+    ª       A.csv
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       EC1.csv
+    ª       EC2.csv
+    ª       EC3.csv
+    ª       E_M.csv
+    ª       fd.csv
+    ª       lever_arm.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       n_freq.csv
+    ª       n_freq_lindblad.csv
+    ª       parity.csv
+    ª       phi.csv
+    ª       t12.csv
+    ª       t23.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       ?ng.csv
+    ª       
+    +---FigS4_data
+    ª       A.csv
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       EC1.csv
+    ª       EC2.csv
+    ª       EC3.csv
+    ª       E_0.csv
+    ª       E_M.csv
+    ª       fd.csv
+    ª       lever_arm.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       n_freq.csv
+    ª       n_freq_lindblad.csv
+    ª       parity.csv
+    ª       phi.csv
+    ª       t12.csv
+    ª       t23.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       u1.csv
+    ª       ?ng.csv
+    ª       
+    +---FigS8_data
+    ª       A.csv
+    ª       CQ.csv
+    ª       datasets.csv
+    ª       EC1.csv
+    ª       EC2.csv
+    ª       EC3.csv
+    ª       E_M.csv
+    ª       fd.csv
+    ª       lever_arm.csv
+    ª       ng1.csv
+    ª       ng2.csv
+    ª       ng3.csv
+    ª       n_freq.csv
+    ª       n_freq_lindblad.csv
+    ª       parity.csv
+    ª       phi.csv
+    ª       t12.csv
+    ª       t23.csv
+    ª       tm1.csv
+    ª       tm2.csv
+    ª       ?ng.csv
+    ª       
+    +---thermometry_reference_simulated_dataset
+            A.csv
+            CQ.csv
+            datasets.csv
+            EC.csv
+            fd.csv
+            lever_arm.csv
+            ng.csv
+            n_freq.csv
+            n_freq_lindblad.csv
+            t0.csv
+            temperature.csv
+            ?ng.csv
+            
