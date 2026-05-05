@@ -1,0 +1,9 @@
+{
+  "n_bootstrap": 200,
+  "block_size": 2048,
+  "max_blocks": 1000,
+  "n_prediction_ci_rows": 93,
+  "n_dwell_ci_rows": 123,
+  "n_agreement_ci_rows": 33,
+  "interpretation": "Block-bootstrap intervals quantify model-summary uncertainty/variation only; physical QCVV requires calibration and direct data."
+}

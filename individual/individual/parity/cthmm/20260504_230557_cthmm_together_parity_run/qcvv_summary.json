@@ -1,0 +1,11 @@
+{
+  "mode": "gpu_cthmm",
+  "rates_and_lifetimes": {
+    "gamma_01": 2.4762063026428223,
+    "gamma_10": 4.960118770599365,
+    "tau_0": 0.4038435726993802,
+    "tau_1": 0.20160807558226335
+  },
+  "train_log_likelihood_per_obs": -13.406616052565544,
+  "device": "cuda:0"
+}

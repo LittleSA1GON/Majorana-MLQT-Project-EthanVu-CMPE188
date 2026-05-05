@@ -1,0 +1,66 @@
+{
+  "project_root": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188",
+  "out_dir": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs",
+  "bundles_scanned": [
+    "pipeline",
+    "individual"
+  ],
+  "n_artifacts": 30,
+  "n_cthmm_rows": 6,
+  "n_prediction_rows": 21,
+  "n_agreement_rows": 33,
+  "n_cross_bundle_agreement_rows": 6,
+  "n_dwell_rows": 29,
+  "n_training_rows": 21,
+  "n_bundle_comparison_rows": 66,
+  "dt_by_family": {},
+  "state_labels": {},
+  "warnings": [],
+  "direct_data_needed": [
+    {
+      "need": "physical timestep dt for each family",
+      "why": "Converts tau_0/tau_1 and dwell-window statistics from model units into seconds.",
+      "status": "missing",
+      "how_to_use": "Pass --dt-json dt.json with keys parity, x_loop, z_loop."
+    },
+    {
+      "need": "calibration labels or known state preparations",
+      "why": "Maps hidden state 0/1 to even/odd parity or physical X/Z loop states and enables true assignment error/readout fidelity.",
+      "status": "missing",
+      "how_to_use": "Pass --state-label-json for state names and use qcvv_calibrate.py for confusion matrices/fidelity."
+    },
+    {
+      "need": "raw or prepared I/Q traces with sample_dt and run/time metadata",
+      "why": "Needed for physical drift analysis, raw trace dwell-time posteriors, repeated-readout/QND metrics, and model inference on new data.",
+      "status": "not available in extracted model artifacts unless prepared bundles are accessible locally",
+      "how_to_use": "Keep columns such as family, run_id, sequence_id, sample_index, t, I, Q, sample_dt."
+    },
+    {
+      "need": "repeated-readout or pre/post measurement experiments",
+      "why": "Needed to quantify measurement backaction and QND repeatability rather than only decoder confidence.",
+      "status": "not inferable from model artifacts alone",
+      "how_to_use": "Prepare paired pre/post or repeated measurements and align them by run/sequence/time."
+    },
+    {
+      "need": "individual CNN-GRU/DMM prediction exports if you want prediction-level comparison for those baselines",
+      "why": "The individual bundle has checkpoints and training metrics for some neural models, but no prediction NPZ for CNN-GRU/DMM in the current project files.",
+      "status": "missing when prediction_npz is blank in artifact_inventory.csv",
+      "how_to_use": "Run model inference/export on a shared held-out dataset, then rerun qcvv_extract.py."
+    }
+  ],
+  "outputs": {
+    "artifact_inventory": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\artifact_inventory.csv",
+    "cthmm_lifetimes": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\cthmm_lifetimes.csv",
+    "prediction_metrics": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\prediction_metrics.csv",
+    "model_agreements": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\model_agreements.csv",
+    "cross_bundle_model_agreements": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\cross_bundle_model_agreements.csv",
+    "dwell_metrics": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\dwell_metrics.csv",
+    "training_metrics": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\training_metrics.csv",
+    "bundle_comparison": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\bundle_comparison.csv",
+    "family_summary": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\family_summary.csv",
+    "qcvv_scorecard": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\qcvv_scorecard.csv",
+    "interpretation_notes": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\interpretation_notes.csv",
+    "extraction_warnings": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\extraction_warnings.csv",
+    "direct_data_needed": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\direct_data_needed.csv"
+  }
+}

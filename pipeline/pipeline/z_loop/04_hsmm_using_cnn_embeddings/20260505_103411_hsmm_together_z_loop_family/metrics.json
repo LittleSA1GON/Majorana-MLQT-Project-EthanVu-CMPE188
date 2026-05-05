@@ -1,0 +1,424 @@
+{
+  "mode": "gpu_duration_hsmm",
+  "device": "cuda:0",
+  "num_states": 2,
+  "best_val_loss": 38176.633626302086,
+  "state_counts": {
+    "0": 996,
+    "1": 509
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 34605.70743128765,
+        "recon_loss": 34605.687382341865,
+        "duration_loss": 0.055710843472505905,
+        "entropy": 0.014684727247131157,
+        "balance": 0.08961532408573541,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38385.5595703125,
+        "recon_loss": 38385.53426106771,
+        "duration_loss": 0.09513446905960639,
+        "entropy": 0.013794434130735075,
+        "balance": 0.06435375112338686,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.991927146911621
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 34385.34003200301,
+        "recon_loss": 34385.312123493975,
+        "duration_loss": 0.1083990927920284,
+        "entropy": 0.012320364528077554,
+        "balance": 0.06201079741389637,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38374.50675455729,
+        "recon_loss": 38374.478841145836,
+        "duration_loss": 0.11597068522435923,
+        "entropy": 0.010772679360040152,
+        "balance": 0.05408449732931331,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.553487062454224
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 34553.52854386295,
+        "recon_loss": 34553.49889401355,
+        "duration_loss": 0.12403306526591978,
+        "entropy": 0.010000521488240864,
+        "balance": 0.05182502516377044,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38363.4609375,
+        "recon_loss": 38363.43123372396,
+        "duration_loss": 0.1252765948884189,
+        "entropy": 0.009069408338594561,
+        "balance": 0.04936881912969208,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.441378355026245
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "loss": 34383.248329254515,
+        "recon_loss": 34383.21656155874,
+        "duration_loss": 0.13497303794306445,
+        "entropy": 0.008670244873669672,
+        "balance": 0.04770495033407786,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38352.399169921875,
+        "recon_loss": 38352.367838541664,
+        "duration_loss": 0.13258758334753415,
+        "entropy": 0.007777185062877834,
+        "balance": 0.04602341466670623,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.572768926620483
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "loss": 34419.18102880271,
+        "recon_loss": 34419.148461031626,
+        "duration_loss": 0.14226153297686434,
+        "entropy": 0.007606367876540017,
+        "balance": 0.04172971359936588,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38341.3408203125,
+        "recon_loss": 38341.308837890625,
+        "duration_loss": 0.1361106502978752,
+        "entropy": 0.0069282335801593336,
+        "balance": 0.044375336216035066,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.412437438964844
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "loss": 34311.506541792165,
+        "recon_loss": 34311.47258565512,
+        "duration_loss": 0.14888856883149548,
+        "entropy": 0.007034848601254354,
+        "balance": 0.040907563091850424,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38330.28759765625,
+        "recon_loss": 38330.255126953125,
+        "duration_loss": 0.14162391144782305,
+        "entropy": 0.006491881528442415,
+        "balance": 0.04203711514833023,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.638066530227661
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "loss": 34366.96166698042,
+        "recon_loss": 34366.92749905874,
+        "duration_loss": 0.15246374267770582,
+        "entropy": 0.006548295482005699,
+        "balance": 0.03833364075363939,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38319.259114583336,
+        "recon_loss": 38319.226236979164,
+        "duration_loss": 0.1452924950669209,
+        "entropy": 0.006082920590415597,
+        "balance": 0.04111297455150028,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.482873678207397
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "loss": 34227.74395237199,
+        "recon_loss": 34227.70865493223,
+        "duration_loss": 0.15573531021195722,
+        "entropy": 0.006184815490865205,
+        "balance": 0.039516316569713224,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38308.24519856771,
+        "recon_loss": 38308.21232096354,
+        "duration_loss": 0.14577770015845695,
+        "entropy": 0.00566103517000253,
+        "balance": 0.040909756635301164,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.458920001983643
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "loss": 34316.5495340738,
+        "recon_loss": 34316.51468373494,
+        "duration_loss": 0.1574833775500217,
+        "entropy": 0.005817641196940768,
+        "balance": 0.03562281418490751,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38297.247802734375,
+        "recon_loss": 38297.213704427086,
+        "duration_loss": 0.1518546516696612,
+        "entropy": 0.005732021212073353,
+        "balance": 0.03881499818756614,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.458189725875854
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "loss": 34177.79958113705,
+        "recon_loss": 34177.763789533135,
+        "duration_loss": 0.1609397211886314,
+        "entropy": 0.00563730205218476,
+        "balance": 0.035197590972880374,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38286.25048828125,
+        "recon_loss": 38286.216145833336,
+        "duration_loss": 0.1536305652310451,
+        "entropy": 0.00565403641667217,
+        "balance": 0.038064553378111064,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.548746109008789
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "loss": 34209.46674981175,
+        "recon_loss": 34209.43098173946,
+        "duration_loss": 0.16079910454082202,
+        "entropy": 0.0053506758911198524,
+        "balance": 0.03323009249428848,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38275.24991861979,
+        "recon_loss": 38275.2158203125,
+        "duration_loss": 0.1524180113337934,
+        "entropy": 0.005105222260075,
+        "balance": 0.038851812494006786,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.436240434646606
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "loss": 34306.02701430723,
+        "recon_loss": 34305.99096385542,
+        "duration_loss": 0.16419190760836544,
+        "entropy": 0.005284802359809358,
+        "balance": 0.033434244079644376,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38264.265787760414,
+        "recon_loss": 38264.23152669271,
+        "duration_loss": 0.15328915510326624,
+        "entropy": 0.004938996590984364,
+        "balance": 0.03870711572259703,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.380302906036377
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "loss": 34132.86182228916,
+        "recon_loss": 34132.82551298946,
+        "duration_loss": 0.16418349509497723,
+        "entropy": 0.005159713002482811,
+        "balance": 0.03286178267549678,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38253.27937825521,
+        "recon_loss": 38253.244954427086,
+        "duration_loss": 0.1543977684341371,
+        "entropy": 0.0050013909543243544,
+        "balance": 0.038001503813575255,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.573057174682617
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "loss": 34150.6795933735,
+        "recon_loss": 34150.6433782003,
+        "duration_loss": 0.16446713196584978,
+        "entropy": 0.005054257207000291,
+        "balance": 0.03235427758527404,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38242.318196614586,
+        "recon_loss": 38242.28377278646,
+        "duration_loss": 0.15539354210098585,
+        "entropy": 0.004937499945905681,
+        "balance": 0.03771075311548581,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.467163562774658
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "loss": 34202.49077560241,
+        "recon_loss": 34202.45418392319,
+        "duration_loss": 0.1668621783694589,
+        "entropy": 0.0050263340298804535,
+        "balance": 0.0319123825742807,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38231.347493489586,
+        "recon_loss": 38231.31306966146,
+        "duration_loss": 0.157455132342875,
+        "entropy": 0.005038624706988533,
+        "balance": 0.03694383447251918,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.791613340377808
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "loss": 34101.64827277861,
+        "recon_loss": 34101.6116810994,
+        "duration_loss": 0.16650897569685097,
+        "entropy": 0.00488932091877403,
+        "balance": 0.03261563391705234,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38220.39265950521,
+        "recon_loss": 38220.358235677086,
+        "duration_loss": 0.1557638132944703,
+        "entropy": 0.004471308857318945,
+        "balance": 0.03798365035557557,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.394577264785767
+    },
+    {
+      "epoch": 17,
+      "train": {
+        "loss": 34394.32678369729,
+        "recon_loss": 34394.29000376506,
+        "duration_loss": 0.16740218612803034,
+        "entropy": 0.004875341674357832,
+        "balance": 0.03105490716280842,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38209.457275390625,
+        "recon_loss": 38209.4228515625,
+        "duration_loss": 0.15749708330258727,
+        "entropy": 0.0047407545207533985,
+        "balance": 0.03713874819383515,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.653871059417725
+    },
+    {
+      "epoch": 18,
+      "train": {
+        "loss": 34294.78181475904,
+        "recon_loss": 34294.745317206325,
+        "duration_loss": 0.16635337135339356,
+        "entropy": 0.004796467311904732,
+        "balance": 0.030984691927680767,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38198.51123046875,
+        "recon_loss": 38198.47664388021,
+        "duration_loss": 0.15756585899119577,
+        "entropy": 0.004654442872075985,
+        "balance": 0.037054827310991335,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.695042848587036
+    },
+    {
+      "epoch": 19,
+      "train": {
+        "loss": 34231.486351656626,
+        "recon_loss": 34231.4495717244,
+        "duration_loss": 0.16904492981462593,
+        "entropy": 0.004830675746639629,
+        "balance": 0.03002244370978281,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38187.56209309896,
+        "recon_loss": 38187.52742513021,
+        "duration_loss": 0.15844957359756032,
+        "entropy": 0.004595687719605242,
+        "balance": 0.03708241706681292,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.642933368682861
+    },
+    {
+      "epoch": 20,
+      "train": {
+        "loss": 34228.3614222515,
+        "recon_loss": 34228.3245717244,
+        "duration_loss": 0.1679286488208426,
+        "entropy": 0.004751451032976788,
+        "balance": 0.0319498354649376,
+        "num_batches": 83
+      },
+      "val": {
+        "loss": 38176.633626302086,
+        "recon_loss": 38176.59903971354,
+        "duration_loss": 0.15813949766258398,
+        "entropy": 0.004503775868215598,
+        "balance": 0.03703691951022847,
+        "num_batches": 24
+      },
+      "epoch_time_sec": 13.479864835739136
+    }
+  ],
+  "split_info": {
+    "split_strategy": "grouped_train_val_test",
+    "num_samples": 15015,
+    "train_samples": 10507,
+    "val_samples": 3003,
+    "test_samples": 1505,
+    "num_unique_groups": 2145,
+    "group_overlap_train_val": 0,
+    "group_overlap_train_test": 0,
+    "group_overlap_val_test": 0,
+    "loaded_from": "training\\runs_pipeline\\z_loop\\01_cthmm\\20260505_102554_cthmm_together_z_loop_family\\split_manifest.json"
+  }
+}

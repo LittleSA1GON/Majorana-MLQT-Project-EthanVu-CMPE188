@@ -1,0 +1,217 @@
+{
+  "model_type": "gpu_gaussian_cthmm_approx",
+  "device": "cuda:0",
+  "means": [
+    [
+      -44.16637420654297,
+      -42.84962844848633
+    ],
+    [
+      105.24598693847656,
+      -70.9300765991211
+    ]
+  ],
+  "vars": [
+    [
+      8704.267578125,
+      6024.5888671875
+    ],
+    [
+      11089.0556640625,
+      6113.45849609375
+    ]
+  ],
+  "gamma_01": 355507.90625,
+  "gamma_10": 390136.03125,
+  "tau_0": 2.812876963970474e-06,
+  "tau_1": 2.5632085218993726e-06,
+  "history": [
+    {
+      "iter": 1,
+      "log_likelihood_per_obs": -11.365729646697389,
+      "gamma_01": 360817.15625,
+      "gamma_10": 386181.625,
+      "mean_delta": 8.771194458007812
+    },
+    {
+      "iter": 2,
+      "log_likelihood_per_obs": -11.3424366359447,
+      "gamma_01": 360520.375,
+      "gamma_10": 385711.09375,
+      "mean_delta": 4.488914489746094
+    },
+    {
+      "iter": 3,
+      "log_likelihood_per_obs": -11.33606662826421,
+      "gamma_01": 360233.875,
+      "gamma_10": 385569.5,
+      "mean_delta": 3.1357650756835938
+    },
+    {
+      "iter": 4,
+      "log_likelihood_per_obs": -11.333383256528418,
+      "gamma_01": 359944.59375,
+      "gamma_10": 385672.5625,
+      "mean_delta": 2.3216629028320312
+    },
+    {
+      "iter": 5,
+      "log_likelihood_per_obs": -11.33199692780338,
+      "gamma_01": 359567.53125,
+      "gamma_10": 385922.75,
+      "mean_delta": 1.7874984741210938
+    },
+    {
+      "iter": 6,
+      "log_likelihood_per_obs": -11.331200076804915,
+      "gamma_01": 359130.0625,
+      "gamma_10": 386253.1875,
+      "mean_delta": 1.420501708984375
+    },
+    {
+      "iter": 7,
+      "log_likelihood_per_obs": -11.330703725038402,
+      "gamma_01": 358675.3125,
+      "gamma_10": 386592.4375,
+      "mean_delta": 1.1590576171875
+    },
+    {
+      "iter": 8,
+      "log_likelihood_per_obs": -11.330386904761905,
+      "gamma_01": 358271.3125,
+      "gamma_10": 386942.125,
+      "mean_delta": 0.9664306640625
+    },
+    {
+      "iter": 9,
+      "log_likelihood_per_obs": -11.33015649001536,
+      "gamma_01": 357934.125,
+      "gamma_10": 387297.875,
+      "mean_delta": 0.8199234008789062
+    },
+    {
+      "iter": 10,
+      "log_likelihood_per_obs": -11.329993279569893,
+      "gamma_01": 357616.34375,
+      "gamma_10": 387613.125,
+      "mean_delta": 0.7049331665039062
+    },
+    {
+      "iter": 11,
+      "log_likelihood_per_obs": -11.32986559139785,
+      "gamma_01": 357344.0625,
+      "gamma_10": 387903.90625,
+      "mean_delta": 0.6125869750976562
+    },
+    {
+      "iter": 12,
+      "log_likelihood_per_obs": -11.329782066052227,
+      "gamma_01": 357099.5,
+      "gamma_10": 388173.53125,
+      "mean_delta": 0.5368499755859375
+    },
+    {
+      "iter": 13,
+      "log_likelihood_per_obs": -11.329715821812597,
+      "gamma_01": 356893.6875,
+      "gamma_10": 388431.0625,
+      "mean_delta": 0.4737091064453125
+    },
+    {
+      "iter": 14,
+      "log_likelihood_per_obs": -11.329664938556068,
+      "gamma_01": 356691.4375,
+      "gamma_10": 388639.78125,
+      "mean_delta": 0.4203948974609375
+    },
+    {
+      "iter": 15,
+      "log_likelihood_per_obs": -11.329622695852535,
+      "gamma_01": 356520.5625,
+      "gamma_10": 388833.90625,
+      "mean_delta": 0.37494659423828125
+    },
+    {
+      "iter": 16,
+      "log_likelihood_per_obs": -11.32959485407066,
+      "gamma_01": 356366.65625,
+      "gamma_10": 389003.65625,
+      "mean_delta": 0.335601806640625
+    },
+    {
+      "iter": 17,
+      "log_likelihood_per_obs": -11.329569892473119,
+      "gamma_01": 356244.8125,
+      "gamma_10": 389171.125,
+      "mean_delta": 0.30170440673828125
+    },
+    {
+      "iter": 18,
+      "log_likelihood_per_obs": -11.329538210445468,
+      "gamma_01": 356120.09375,
+      "gamma_10": 389297.34375,
+      "mean_delta": 0.27191925048828125
+    },
+    {
+      "iter": 19,
+      "log_likelihood_per_obs": -11.329530529953917,
+      "gamma_01": 356009.75,
+      "gamma_10": 389435.96875,
+      "mean_delta": 0.24571990966796875
+    },
+    {
+      "iter": 20,
+      "log_likelihood_per_obs": -11.329530529953917,
+      "gamma_01": 355906.625,
+      "gamma_10": 389564.6875,
+      "mean_delta": 0.2227630615234375
+    },
+    {
+      "iter": 21,
+      "log_likelihood_per_obs": -11.329506528417818,
+      "gamma_01": 355825.46875,
+      "gamma_10": 389680.5,
+      "mean_delta": 0.2020263671875
+    },
+    {
+      "iter": 22,
+      "log_likelihood_per_obs": -11.329497887864823,
+      "gamma_01": 355745.3125,
+      "gamma_10": 389794.53125,
+      "mean_delta": 0.18390655517578125
+    },
+    {
+      "iter": 23,
+      "log_likelihood_per_obs": -11.329494047619047,
+      "gamma_01": 355677.59375,
+      "gamma_10": 389885.78125,
+      "mean_delta": 0.16753387451171875
+    },
+    {
+      "iter": 24,
+      "log_likelihood_per_obs": -11.329488287250385,
+      "gamma_01": 355616.15625,
+      "gamma_10": 389974.71875,
+      "mean_delta": 0.15279388427734375
+    },
+    {
+      "iter": 25,
+      "log_likelihood_per_obs": -11.32948732718894,
+      "gamma_01": 355555.3125,
+      "gamma_10": 390054.125,
+      "mean_delta": 0.139678955078125
+    }
+  ],
+  "split_info": {
+    "split_strategy": "grouped_train_val_test",
+    "num_samples": 186000,
+    "train_samples": 130200,
+    "val_samples": 37200,
+    "test_samples": 18600,
+    "num_unique_groups": 6200,
+    "group_overlap_train_val": 0,
+    "group_overlap_train_test": 0,
+    "group_overlap_val_test": 0,
+    "written_to": "training\\runs_pipeline\\x_loop\\01_cthmm\\20260505_091222_cthmm_together_x_loop_family\\split_manifest.json"
+  }
+}

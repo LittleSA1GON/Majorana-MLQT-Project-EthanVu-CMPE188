@@ -1,0 +1,32 @@
+{
+  "n_drift_rows": 420,
+  "n_drift_summary_rows": 93,
+  "n_bins_requested": 20,
+  "figures": [
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_individual_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_individual_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_individual_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_individual_switch_rate.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_pipeline_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_pipeline_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_pipeline_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_parity_pipeline_switch_rate.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_individual_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_individual_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_individual_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_individual_switch_rate.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_pipeline_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_pipeline_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_pipeline_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_x_loop_pipeline_switch_rate.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_individual_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_individual_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_individual_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_individual_switch_rate.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_pipeline_state_0_occupancy.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_pipeline_mean_confidence.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_pipeline_mean_entropy_bits.png",
+    "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs\\figures\\drift_z_loop_pipeline_switch_rate.png"
+  ],
+  "interpretation": "Large bin-to-bin ranges indicate possible drift/nonstationarity and should be investigated before official QCVV claims."
+}

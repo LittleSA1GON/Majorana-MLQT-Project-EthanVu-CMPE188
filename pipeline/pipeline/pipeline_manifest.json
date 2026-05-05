@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-05-05T02:58:15",
+  "purpose": "combined_qcvv_pipeline",
+  "pipeline_order": [
+    "cthmm",
+    "cnn_gru_independent",
+    "cnn_gru_teacher_assisted",
+    "hsmm_using_cnn_embeddings",
+    "dmm",
+    "export_predictions"
+  ],
+  "prepared": [
+    "manual-data\\~ready_torch\\prepared_parity.pt",
+    "manual-data\\~ready_torch\\prepared_x_loop.pt",
+    "manual-data\\~ready_torch\\prepared_z_loop.pt"
+  ],
+  "families": [
+    "parity",
+    "x_loop",
+    "z_loop"
+  ],
+  "runs_dir": "training\\runs\\pipeline",
+  "stages": [
+    {
+      "family": "parity",
+      "stage": "1_cthmm",
+      "run_dir": "training\\runs\\pipeline\\parity\\01_cthmm\\20260505_025817_cthmm_together_parity_family",
+      "teacher_npz": "training\\runs\\pipeline\\parity\\01_cthmm\\20260505_025817_cthmm_together_parity_family\\teacher_predictions.npz"
+    },
+    {
+      "family": "parity",
+      "stage": "2_cnn_gru_independent",
+      "run_dir": "training\\runs\\pipeline\\parity\\02_cnn_gru_independent\\20260505_031909_cnn_gru_together_parity_family"
+    },
+    {
+      "family": "parity",
+      "stage": "3_cnn_gru_teacher_assisted",
+      "run_dir": "training\\runs\\pipeline\\parity\\03_cnn_gru_teacher_assisted\\20260505_032709_cnn_gru_together_parity_family"
+    },
+    {
+      "family": "parity",
+      "stage": "4_hsmm_using_cnn_embeddings",
+      "run_dir": "training\\runs\\pipeline\\parity\\04_hsmm_using_cnn_embeddings\\20260505_034648_hsmm_together_parity_family"
+    },
+    {
+      "family": "parity",
+      "stage": "5_dmm",
+      "run_dir": "training\\runs\\pipeline\\parity\\05_dmm\\20260505_040832_dmm_together_parity_family"
+    },
+    {
+      "family": "parity",
+      "stage": "6_export_predictions",
+      "prediction_npz": [
+        "training\\runs\\pipeline\\parity\\01_cthmm\\20260505_025817_cthmm_together_parity_family\\teacher_predictions.npz",
+        "training\\runs\\pipeline\\parity\\02_cnn_gru_independent\\20260505_031909_cnn_gru_together_parity_family\\predictions_cnn_independent.npz",
+        "training\\runs\\pipeline\\parity\\03_cnn_gru_teacher_assisted\\20260505_032709_cnn_gru_together_parity_family\\predictions_cnn_teacher_assisted.npz",
+        "training\\runs\\pipeline\\parity\\05_dmm\\20260505_040832_dmm_together_parity_family\\predictions_dmm.npz"
+      ]
+    },
+    {
+      "family": "x_loop",
+      "stage": "1_cthmm",
+      "run_dir": "training\\runs\\pipeline\\x_loop\\01_cthmm\\20260505_065730_cthmm_together_x_loop_family",
+      "teacher_npz": "training\\runs\\pipeline\\x_loop\\01_cthmm\\20260505_065730_cthmm_together_x_loop_family\\teacher_predictions.npz"
+    },
+    {
+      "family": "x_loop",
+      "stage": "2_cnn_gru_independent",
+      "run_dir": "training\\runs\\pipeline\\x_loop\\02_cnn_gru_independent\\20260505_070614_cnn_gru_together_x_loop_family"
+    },
+    {
+      "family": "x_loop",
+      "stage": "3_cnn_gru_teacher_assisted",
+      "run_dir": "training\\runs\\pipeline\\x_loop\\03_cnn_gru_teacher_assisted\\20260505_071255_cnn_gru_together_x_loop_family"
+    },
+    {
+      "family": "x_loop",
+      "stage": "4_hsmm_using_cnn_embeddings",
+      "run_dir": "training\\runs\\pipeline\\x_loop\\04_hsmm_using_cnn_embeddings\\20260505_071648_hsmm_together_x_loop_family"
+    },
+    {
+      "family": "x_loop",
+      "stage": "5_dmm",
+      "run_dir": "training\\runs\\pipeline\\x_loop\\05_dmm\\20260505_072648_dmm_together_x_loop_family"
+    },
+    {
+      "family": "x_loop",
+      "stage": "6_export_predictions",
+      "prediction_npz": [
+        "training\\runs\\pipeline\\x_loop\\01_cthmm\\20260505_065730_cthmm_together_x_loop_family\\teacher_predictions.npz",
+        "training\\runs\\pipeline\\x_loop\\02_cnn_gru_independent\\20260505_070614_cnn_gru_together_x_loop_family\\predictions_cnn_independent.npz",
+        "training\\runs\\pipeline\\x_loop\\03_cnn_gru_teacher_assisted\\20260505_071255_cnn_gru_together_x_loop_family\\predictions_cnn_teacher_assisted.npz",
+        "training\\runs\\pipeline\\x_loop\\05_dmm\\20260505_072648_dmm_together_x_loop_family\\predictions_dmm.npz"
+      ]
+    },
+    {
+      "family": "z_loop",
+      "stage": "1_cthmm",
+      "run_dir": "training\\runs\\pipeline\\z_loop\\01_cthmm\\20260505_081730_cthmm_together_z_loop_family",
+      "teacher_npz": "training\\runs\\pipeline\\z_loop\\01_cthmm\\20260505_081730_cthmm_together_z_loop_family\\teacher_predictions.npz"
+    },
+    {
+      "family": "z_loop",
+      "stage": "2_cnn_gru_independent",
+      "run_dir": "training\\runs\\pipeline\\z_loop\\02_cnn_gru_independent\\20260505_082232_cnn_gru_together_z_loop_family"
+    },
+    {
+      "family": "z_loop",
+      "stage": "3_cnn_gru_teacher_assisted",
+      "run_dir": "training\\runs\\pipeline\\z_loop\\03_cnn_gru_teacher_assisted\\20260505_082727_cnn_gru_together_z_loop_family"
+    },
+    {
+      "family": "z_loop",
+      "stage": "4_hsmm_using_cnn_embeddings",
+      "run_dir": "training\\runs\\pipeline\\z_loop\\04_hsmm_using_cnn_embeddings\\20260505_083046_hsmm_together_z_loop_family"
+    },
+    {
+      "family": "z_loop",
+      "stage": "5_dmm",
+      "run_dir": "training\\runs\\pipeline\\z_loop\\05_dmm\\20260505_083735_dmm_together_z_loop_family"
+    },
+    {
+      "family": "z_loop",
+      "stage": "6_export_predictions",
+      "prediction_npz": [
+        "training\\runs\\pipeline\\z_loop\\01_cthmm\\20260505_081730_cthmm_together_z_loop_family\\teacher_predictions.npz",
+        "training\\runs\\pipeline\\z_loop\\02_cnn_gru_independent\\20260505_082232_cnn_gru_together_z_loop_family\\predictions_cnn_independent.npz",
+        "training\\runs\\pipeline\\z_loop\\03_cnn_gru_teacher_assisted\\20260505_082727_cnn_gru_together_z_loop_family\\predictions_cnn_teacher_assisted.npz",
+        "training\\runs\\pipeline\\z_loop\\05_dmm\\20260505_083735_dmm_together_z_loop_family\\predictions_dmm.npz"
+      ]
+    }
+  ]
+}

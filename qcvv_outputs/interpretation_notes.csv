@@ -1,0 +1,13 @@
+section,finding,interpretation,bundle,family,model
+scope,The extraction covers both pipeline and individual artifact bundles by default.,Use pipeline as the connected QCVV workflow and individual as independent baselines/ablation evidence.,,,
+limits,Model artifacts do not include physical calibration labels or raw timing metadata by themselves.,"Absolute readout fidelity, seconds-scale lifetimes, QND repeatability, and measurement backaction require direct data.",,,
+model_quality,Low confidence and near-single-state occupancy.,"Treat this model as a weak baseline, not a final decoder.",pipeline,parity,cnn_gru
+model_quality,Low confidence and near-single-state occupancy.,"Treat this model as a weak baseline, not a final decoder.",pipeline,x_loop,cnn_gru
+model_quality,Low confidence and near-single-state occupancy.,"Treat this model as a weak baseline, not a final decoder.",pipeline,x_loop,dmm
+model_quality,Low confidence and near-single-state occupancy.,"Treat this model as a weak baseline, not a final decoder.",pipeline,z_loop,cnn_gru
+scorecard,readiness score = 95.61,strong model-assisted characterization,pipeline,parity,
+scorecard,readiness score = 78.67,usable model-assisted characterization,pipeline,x_loop,
+scorecard,readiness score = 88.72,strong model-assisted characterization,pipeline,z_loop,
+scorecard,readiness score = 99.55,strong model-assisted characterization,individual,parity,
+scorecard,readiness score = 85.23,strong model-assisted characterization,individual,x_loop,
+scorecard,readiness score = 94.27,strong model-assisted characterization,individual,z_loop,
