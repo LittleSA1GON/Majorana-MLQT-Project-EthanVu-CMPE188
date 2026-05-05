@@ -1,3 +1,8 @@
 data/
-parsed_data/
-mapped_data/
+prepared_data/
+dataset_bundle/
+prepared_qcvv_h5_optimized/
+repo_h5_visualizations/
+manual-data/
+runs/
+runs_pipeline/
