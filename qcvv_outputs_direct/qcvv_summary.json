@@ -1,0 +1,37 @@
+{
+  "project_root": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188",
+  "out_dir": "C:\\Users\\ethan\\CodingSchool\\CMPE 188\\Majorana-MLQT-Project-EthanVu-CMPE188\\qcvv_outputs_direct",
+  "bundles": [
+    "pipeline",
+    "individual"
+  ],
+  "families": [
+    "parity",
+    "x_loop",
+    "z_loop"
+  ],
+  "latest_only": true,
+  "n_artifacts": 30,
+  "n_prediction_rows": 21,
+  "n_cthmm_rows": 6,
+  "n_dwell_rows": 41,
+  "n_within_bundle_agreements": 33,
+  "n_cross_bundle_agreements": 6,
+  "n_training_rows": 21,
+  "n_drift_rows": 210,
+  "n_warnings": 0,
+  "outputs": {
+    "artifact_inventory": "artifact_inventory.csv",
+    "cthmm_lifetimes": "cthmm_lifetimes.csv",
+    "prediction_metrics": "prediction_metrics.csv",
+    "dwell_metrics": "dwell_metrics.csv",
+    "model_agreements": "model_agreements.csv",
+    "cross_bundle_model_agreements": "cross_bundle_model_agreements.csv",
+    "training_metrics": "training_metrics.csv",
+    "drift_metrics": "drift_metrics.csv",
+    "bundle_comparison": "bundle_comparison.csv",
+    "family_summary": "family_summary.csv",
+    "scorecard": "qcvv_scorecard.csv",
+    "warnings": "extraction_warnings.csv"
+  }
+}
